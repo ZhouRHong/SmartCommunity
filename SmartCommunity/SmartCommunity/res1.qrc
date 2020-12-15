@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/cloudy.png</file>
+        <file>icon/cloudy_to_sunny.png</file>
+        <file>icon/cloudy_toLight rain.png</file>
+        <file>icon/Light_rain_to_moderate_rain.png</file>
+        <file>icon/sunny.png</file>
+        <file>icon/ying.png</file>
+        <file>icon/ying_to_cloudy.png</file>
+        <file>icon/wuziqi.png</file>
+    </qresource>
+</RCC>

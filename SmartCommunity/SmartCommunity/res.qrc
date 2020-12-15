@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/g0.jpg</file>
+        <file>image/g1.jpg</file>
+        <file>image/g2.jpg</file>
+        <file>image/g3.jpg</file>
+        <file>image/off.png</file>
+        <file>image/on.png</file>
+        <file>image/fix.png</file>
+        <file>image/game.png</file>
+        <file>image/adv1.png</file>
+        <file>image/adv2.png</file>
+        <file>image/adv3.png</file>
+        <file>image/adv4.png</file>
+        <file>image/adv5.png</file>
+        <file>image/timg.png</file>
+        <file>image/city.jpg</file>
+        <file>image/weather.jpg</file>
+        <file>image/wuziqi.jpg</file>
+        <file>image/game.jpg</file>
+    </qresource>
+</RCC>

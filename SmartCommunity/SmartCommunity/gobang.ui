@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Gobang</class>
+ <widget class="QMainWindow" name="Gobang">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{border-image: url(:/image/wuziqi.jpg);}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="gameStatus">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>169</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>棋局进行中</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="regret">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>269</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string>悔棋</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="restart">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>210</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string>重新开局</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="who">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>109</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>请白棋落子</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back_regret">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>330</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
